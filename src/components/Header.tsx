@@ -6,7 +6,7 @@ const Header = () => {
   const [search, setSearch] = useState("");
   return (
     <header
-      className="flex w-full h-16 items-center sm:gap-4
+      className="flex justify-between items-center sm:gap-4
      gap-2 sm:px-8 px-4 py-3 border-b-[#D9D9D9] border-b 
      border-solid sticky top-0 bg-[#ffffff]"
     >
